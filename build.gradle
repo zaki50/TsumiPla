@@ -12,11 +12,11 @@ buildscript {
             // https://developer.android.com/jetpack/androidx/releases/activity
             'activity'             : '1.4.0',
             // https://developer.android.com/jetpack/androidx/releases/compose
-            'compose'              : '1.1.0-beta02',
+            'compose'              : '1.1.0-rc01',
             // https://developer.android.com/jetpack/androidx/releases/compose-material3
-            'material3'            : '1.0.0-alpha01',
+            'material3'            : '1.0.0-alpha02',
             // https://developer.android.com/jetpack/androidx/releases/navigation
-            'navigation'           : '2.4.0-beta02',
+            'navigation'           : '2.4.0-rc01',
             // https://developer.android.com/jetpack/androidx/releases/room
             'room'                 : '2.4.0-beta01',
             // http://square.github.io/retrofit/
@@ -42,6 +42,6 @@ task clean(type: Delete) {
 }
 
 wrapper {
-    gradleVersion = '7.3-rc-1'
+    gradleVersion = '7.3.2'
     distributionType = Wrapper.DistributionType.BIN
 }
